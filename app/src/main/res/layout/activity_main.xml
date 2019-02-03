@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="is.clipperz.samplewebview.MainActivity">
+    tools:context="es.balist.clipperzapp.MainActivity">
 
     <WebView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
         android:id="@+id/webView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
