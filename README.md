@@ -35,7 +35,11 @@ Clipperz official website.
 
 ## Installing
 
-(still TODO)
+To install the app on your device go to the [releases][4] page and download
+the latest version of the `.apk`.  You should enable the possibility to
+install apps from _"Unknown Sources"_ in your Settings.
+This could be a security risk in principle so you should consider disabling
+this option when you are done installing the app.
 
 ## License
 
@@ -69,3 +73,4 @@ If you have questions drom me an e-mail at
 [1c]: https://clipperz.is/donations/
 [2]: https://developer.android.com/reference/android/webkit/WebView
 [3]: https://medium.com/@stevesohcot/andriod-studio-webview-tutorial-4651701d7d1a
+[4]: https://github.com/CristianCantoro/ClipperzApp/releases
